@@ -12,9 +12,9 @@ with st.sidebar :
     if (selected == 'Hitung Nilai PPM'):
      st.title('Hitung Nilai PPM')
     
-    Nilai Massa Zat (mg) = st.number-input("Masukan Nilai Massa Zat Terlarut (mg)",0)
-    Nilai Volume (L) = st.number-input("Masukan Nilai Volume Larutan (L)",0)
-    Hitung = st.button ("Hitung Nilai PPM")
+   Massa Zat (mg) = st.number-input("Masukan Nilai Massa Zat Terlarut (mg)",0)
+   Volume (L) = st.number-input("Masukan Nilai Volume Larutan (L)",0)
+   Hitung = st.button ("Hitung Nilai PPM")
     
     if hitung :
         Hitung Nilai PPM = (Nilai Massa Zat (mg)/Nilai Volume (L))
